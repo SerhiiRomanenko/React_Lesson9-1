@@ -1,0 +1,21 @@
+.footer {
+  background: #444444;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+
+  &__company {
+    color: #5E5D66;
+    margin: 5px;
+  }
+
+  &__terms {
+    color: #B4B7BB;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+}
+

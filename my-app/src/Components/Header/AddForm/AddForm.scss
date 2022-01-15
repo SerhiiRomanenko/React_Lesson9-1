@@ -1,0 +1,45 @@
+.header {
+  &__addForm {
+    display: grid;
+    min-width: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 125px;
+    background-color: #716F71;
+    padding: 20px;
+    grid-gap: 10px;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  &__addFormAbout {
+    font-size: 20px;
+    margin: 0;
+    font-family: "Arial Narrow", sans-serif;
+  }
+
+  &__addTitle,
+  &__addText,
+  &__addDescription {
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  &__addPhoto {
+    margin: 0 auto;
+  }
+
+  &__submit {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  &__addTags {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+
+}
